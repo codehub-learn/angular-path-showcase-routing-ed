@@ -1,0 +1,8 @@
+<ul>
+  <ng-container *ngFor="let person of data">
+    <li>
+      {{person.name}}
+      <button (click)="viewDetails(person.id)">View Details</button>
+    </li>
+  </ng-container>
+</ul>
